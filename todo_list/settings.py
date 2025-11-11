@@ -26,6 +26,7 @@ SECRET_KEY = 'django-insecure-f!wie5$@z62&262h2_chycn@$%kte8fsany7_af&gw30lmc#-f
 DEBUG = True
 
 ALLOWED_HOSTS = ['dtask-zko0.onrender.com']
+CSRF_TRUSTED_ORIGINS = ['https://dtask-zko0.onrender.com']
 
 
 # Application definition
@@ -124,5 +125,6 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
 
 
